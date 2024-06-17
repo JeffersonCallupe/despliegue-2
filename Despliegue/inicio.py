@@ -18,7 +18,7 @@ def mostrar_pagina_inicio():
 
     # Widget interactivo para seleccionar la página
     page = st.sidebar.radio('Selecciona una opción del menú', 
-                            ["PRESENTACIÓN", "MODELO ENSAMBLADO", "MODELO LSTM", "MODELO SVR", "MODELO RBF", "MODELO RFR", "MODELO SVC"])
+                            ["PRESENTACIÓN", "MODELO LSTM", "MODELO SVR", "MODELO RBF", "MODELO RFR", "MODELO SVC"])
 
     # Contenido según la página seleccionada
     if page == "PRESENTACIÓN":
@@ -45,9 +45,6 @@ def mostrar_pagina_inicio():
         """
         st.markdown(equipo)
         
-    elif page == "MODELO ENSAMBLADO":
-        mostrar_pagina_ensamblado()
-
     elif page == "MODELO LSTM":
         mostrar_pagina_lstm()
         
