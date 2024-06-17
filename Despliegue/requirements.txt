@@ -48,3 +48,4 @@ toolz
 wheel
 soupsieve
 schema
+scikit-learn
